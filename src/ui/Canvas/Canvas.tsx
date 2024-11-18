@@ -57,17 +57,17 @@ export function Canvas({ initialNodes, initialEdges = [] }: CanvasProps) {
                     Добавить узел
                 </button>
             </div>
-        <ReactFlow
-            nodes={nodes}
-            edges={edges}
-            onNodesChange={onNodesChange}
-            onEdgesChange={onEdgesChange}
-            onConnect={onConnect}
-        >
-            <Controls />
-            <MiniMap />
-            <Background variant="dots" gap={12} size={1} />
-        </ReactFlow>
+            {/*<ReactFlow*/}
+            {/*    nodes={nodes}*/}
+            {/*    edges={edges}*/}
+            {/*    onNodesChange={onNodesChange}*/}
+            {/*    onEdgesChange={onEdgesChange}*/}
+            {/*    onConnect={onConnect}*/}
+            {/*>*/}
+            {/*    <Controls />*/}
+            {/*    <MiniMap />*/}
+            {/*    <Background variant="dots" gap={12} size={1} />*/}
+            {/*</ReactFlow>*/}
         </div>
     );
 }
