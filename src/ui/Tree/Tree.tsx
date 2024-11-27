@@ -89,19 +89,12 @@ const Scene = () => {
     }, []);
 
     return (
-        <>
-            <Canvas>
-                <ambientLight/>
-                <pointLight position={[10, 10, 10]}/>
-                <OrbitControls/>
-
-                {/* Отображаем все деревья */}
-                {trees}
-            </Canvas>
-            <button onClick={handleAddTree} style={{position: 'absolute', top: '20px', left: '20px'}}>
-                Add Tree
-            </button>
-        </>
+        <Canvas>
+            <ambientLight/>
+            <pointLight position={[10, 10, 10]}/>
+            <OrbitControls/>
+            {trees}
+        </Canvas>
     );
 };
 

@@ -10,7 +10,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "create-ui": "node scripts/create-ui-folder.cjs"
   },
   "dependencies": {
     "@atlaskit/css-reset": "^6.11.2",
